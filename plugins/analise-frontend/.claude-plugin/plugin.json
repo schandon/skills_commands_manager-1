@@ -1,0 +1,12 @@
+{
+  "name": "analise-frontend",
+  "description": "Analisa fluxos de frontend React no navegador, inspeciona Console e Network e documenta evidências em Markdown sem alterar código.",
+  "author": {
+    "name": "Chewiesoft"
+  },
+  "version": "1.0.0",
+  "category": "development",
+  "keywords": ["react", "frontend", "browser", "console", "network", "debugging", "analise", "diagnostico"],
+  "platforms": ["claude-code", "cursor"],
+  "skills": "./skills"
+}

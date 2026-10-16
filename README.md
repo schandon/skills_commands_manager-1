@@ -4,7 +4,7 @@
 
 *Plugin marketplace for Claude Code and Cursor — CI/CD, code review, deployments, releases, and more.*
 
-[![Plugins](https://img.shields.io/badge/plugins-16-blue?style=flat-square)](#available-plugins)
+[![Plugins](https://img.shields.io/badge/plugins-19-blue?style=flat-square)](#available-plugins)
 [![Platform](https://img.shields.io/badge/platform-Claude%20Code%20%7C%20Cursor-blueviolet?style=flat-square)](https://code.claude.com)
 [![License](https://img.shields.io/badge/license-Proprietary-red?style=flat-square)](#)
 
@@ -20,6 +20,8 @@ A curated dual-platform plugin marketplace for [Claude Code](https://code.claude
 
 | Plugin | Claude Code | Cursor | Notes |
 |--------|:-----------:|:------:|-------|
+| **analise-backend** | V | V | Skill - rastreia uma rota pelas camadas do backend, verifica operações CRUD e documenta evidências com controle de dados de teste |
+| **analise-frontend** | V | V | Skill - analisa interações React no navegador, Console e Network; documenta evidências sem alterar código |
 | **ansible-docker-backup-restore** | ✓ | ✓ | Skill — backup + restore of Dockerized services via Ansible, with a read-only backup-freshness check |
 | **cicd** | ✓ | ✓ | Skill — works on both platforms without changes |
 | **codereview** | ✓ | ✓ | Skills — adapted automatically by the installer |
@@ -50,7 +52,7 @@ A curated dual-platform plugin marketplace for [Claude Code](https://code.claude
 Then install any plugin:
 
 ```bash
-/plugin install codereview    # or: ansible-docker-backup-restore, cicd, ddd, deploy, dev-script, dotnet-wpf, kaizen-software, pdf-generation, release, retrofit-skill, statusline, ticket, whisper-preprocess, wsl-windows-onboarding, zitadel-idp
+/plugin install codereview    # or: analise-backend, analise-frontend, ansible-docker-backup-restore, cicd, ddd, deploy, dev-script, dotnet-wpf, kaizen-software, pdf-generation, release, retrofit-skill, statusline, ticket, whisper-preprocess, wsl-windows-onboarding, zitadel-idp
 ```
 
 > [!TIP]
@@ -411,6 +413,7 @@ Use este modo quando quiser utilizar comandos e skills diretamente no Claude Cod
 
 ```bash
 /plugin install ansible-docker-backup-restore
+/plugin install analise-backend
 /plugin install cicd
 /plugin install codereview
 /plugin install ddd

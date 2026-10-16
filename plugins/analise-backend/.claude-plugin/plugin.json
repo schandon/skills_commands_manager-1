@@ -1,0 +1,12 @@
+{
+  "name": "analise-backend",
+  "description": "Analisa rotas de backend seguindo o fluxo por routes, controller, service e repository, verifica cobertura CRUD e documenta evidências sem alterar código.",
+  "author": {
+    "name": "Chewiesoft"
+  },
+  "version": "1.0.0",
+  "category": "development",
+  "keywords": ["backend", "api", "routes", "controller", "service", "repository", "crud", "debugging", "analise"],
+  "platforms": ["claude-code", "cursor"],
+  "skills": "./skills"
+}

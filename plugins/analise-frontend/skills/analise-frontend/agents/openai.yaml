@@ -1,0 +1,4 @@
+interface:
+  display_name: "Análise Frontend"
+  short_description: "Analisa componentes React e interações no navegador"
+  default_prompt: "Use $analise-frontend para analisar um fluxo React, registrar os componentes e identificadores usados e documentar as evidências."
