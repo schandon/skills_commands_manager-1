@@ -1,0 +1,4 @@
+interface:
+  display_name: "Análise Backend"
+  short_description: "Rastreia rotas e camadas de uma API backend"
+  default_prompt: "Use $analise-backend para rastrear esta rota pelas camadas do backend, verificar a cobertura CRUD e documentar as evidências com segurança."

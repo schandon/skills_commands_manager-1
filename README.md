@@ -20,6 +20,8 @@ A curated dual-platform plugin marketplace for [Claude Code](https://code.claude
 
 | Plugin | Claude Code | Cursor | Notes |
 |--------|:-----------:|:------:|-------|
+| **analise-backend** | V | V | Skill - rastreia uma rota pelas camadas do backend, verifica operações CRUD e documenta evidências com controle de dados de teste |
+| **analise-frontend** | V | V | Skill - analisa interações React no navegador, Console e Network; documenta evidências sem alterar código |
 | **ansible-docker-backup-restore** | ✓ | ✓ | Skill — backup + restore of Dockerized services via Ansible, with a read-only backup-freshness check |
 | **cicd** | ✓ | ✓ | Skill — works on both platforms without changes |
 | **codereview** | ✓ | ✓ | Skills — adapted automatically by the installer |
@@ -472,6 +474,7 @@ Use este modo quando quiser utilizar comandos e skills diretamente no Claude Cod
 
 ```bash
 /plugin install ansible-docker-backup-restore
+/plugin install analise-backend
 /plugin install cicd
 /plugin install codereview
 /plugin install cors

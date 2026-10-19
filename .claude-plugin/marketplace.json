@@ -9,6 +9,24 @@
   },
   "plugins": [
     {
+      "name": "analise-frontend",
+      "source": "./plugins/analise-frontend",
+      "version": "1.0.0",
+      "description": "Analisa fluxos React no navegador, observa interações, Console e Network, e documenta evidências em Markdown sem alterar código.",
+      "category": "development",
+      "keywords": ["react", "frontend", "browser", "console", "network", "debugging", "analise", "diagnostico"],
+      "platforms": ["claude-code", "cursor"]
+    },
+    {
+      "name": "analise-backend",
+      "source": "./plugins/analise-backend",
+      "version": "1.0.0",
+      "description": "Analisa rotas de backend seguindo o fluxo por routes, controller, service e repository, verifica a cobertura CRUD e documenta evidências com segurança de dados.",
+      "category": "development",
+      "keywords": ["backend", "api", "routes", "controller", "service", "repository", "crud", "debugging", "analise"],
+      "platforms": ["claude-code", "cursor"]
+    },
+    {
       "name": "ansible-docker-backup-restore",
       "source": "./plugins/ansible-docker-backup-restore",
       "version": "1.3.2",
